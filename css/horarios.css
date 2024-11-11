@@ -1,0 +1,241 @@
+.body{
+    padding: 0%;
+    margin: 0%;
+
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+
+.interface{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    height: 98vh;
+
+    background-color:white;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+    width: 100%;
+    height: 10vh;
+    
+    background-color: white;
+
+
+}
+
+.logo {
+    width: 20%;
+    padding-left: 50px;
+
+    display: flex;
+    
+
+}
+
+.nav-centro {
+    width: 50%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    background-color:blue;
+}
+
+.nav-centro ul{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: white;
+
+
+}
+
+.nav-centro a {
+   
+    color: white;
+}
+
+.pesquisa {
+
+    width: 30%;
+
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+
+}
+
+.entradadetexto {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+
+    background-color: whitesmoke;
+}
+
+.entradadetexto img{
+    height: 20px;
+}
+
+.entradadetexto input{
+    height: 20px;
+    width: 50%;
+}
+
+.entradadetexto button{
+    height: 26px;
+    
+}
+
+/* parte central */
+media print {
+    .table, .table__body {
+     overflow: visible;
+     height: auto !important;
+     width: auto !important;
+    }
+   }
+   
+   
+   body {
+       min-height: 100%;
+       background: url(images/html_table.jpg) center / cover;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .container {
+    max-width: 1000px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #d3d3d3;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #a75a2b;
+    display: flex;
+    align-items: center;
+}
+.search-bar input {
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 250px;
+}
+.title {
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.schedule-table {
+    width: 100%;
+    height: 60%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+.schedule-table th, .schedule-table td {
+    border: 1px solid #000;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* parte final */
+
+.container-final{
+    background-color: rgb(200, 200, 200);
+    border-top-left-radius: 500%;
+    border-top-right-radius: 500%;
+
+    width: 100%;
+    height: 28vh;
+
+}
+
+.btn-cadastrar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+button{ /* sem pontos antes de button, pois não é uma classe*/
+    display: flex;
+    border-radius: 1.50rem;
+    
+    width: 30;
+    background-color: orangered;
+}
+
+
+.btn-cliente-dados{
+     background-color: white; 
+    padding-top: 1rem;
+    height: 115px;
+    width: 100px;
+    transform: translate(500px, 50px);
+    
+}
+ 
+.btn-funcionario-dados{
+background-color: white;
+    width: 100px;
+    height: 115px;
+    
+    transform: translate(150px, -190px);
+}
+
+
+
+.btn-horarios{
+    width: 125;
+    height: 125;
+    
+    transform: translate(310px, -299px);
+
+}
+
+
+.btn-pagamentos{
+    width: auto;
+transform: translate(550px, -480px);
+}
+
+.btn-verificar-reserva{
+   width: 125;
+   height: 139;
+    transform: translate(750px, -655px);
+
+} 
+
+
