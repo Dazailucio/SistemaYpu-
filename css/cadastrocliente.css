@@ -160,6 +160,7 @@ button{ /* sem pontos antes de button, pois não é uma classe*/
     margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 
@@ -296,6 +297,7 @@ button{ /* sem pontos antes de button, pois não é uma classe*/
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
 
 .perfil img{
