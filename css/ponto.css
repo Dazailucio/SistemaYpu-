@@ -56,7 +56,9 @@
 
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
+
 
     color: white;
 
@@ -65,7 +67,9 @@
 
 .nav-centro a {
    
-    color: white;
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .pesquisa {
@@ -106,7 +110,7 @@
     
 }
 
-media print {
+@media print {
     .table, .table__body {
      overflow: visible;
      height: auto !important;
@@ -114,10 +118,10 @@ media print {
     }
    }
    
-   /*@page {
+   @page {
        size: landscape;
-       margin: 0; 
-   }*/
+       margin: 0;
+   }
    
    body {
        min-height: 100%;
@@ -127,28 +131,43 @@ media print {
        align-items: center;
    }
 
+   .table_body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+
+   .tabelas {
+    
+   }
+
    .table_cima {
     width: 24%;
 
     display:flex;
-    align-items: flex-start;
-    background-color: #006b21;
+    flex-direction: row;
 
-    flex-wrap: wrap; /* Permite que os botões "quebrem" para a linha de baixo */
+     /* Permite que os botões "quebrem" para a linha de baixo */
     gap: 10px; /* Espaço entre os botões */
     
    }
+
+
    .table_baixo{
-    background-color: #6c00bd;
     width: 24%;
+
     display:flex;
-    align-items: flex-start;
+    flex-direction: row;
+
+     /* Permite que os botões "quebrem" para a linha de baixo */
+    gap: 10px; /* Espaço entre os botões */
+
    }
    
    
    
    main.table {
-       width: 90vw;
+       width: 100%;
        justify-content: center;
        height: 61vh;
        background-color: #fff5;
@@ -238,7 +257,8 @@ media print {
    table {
         height: auto;
        width: 100%;
-       background-color: #006b21;
+       
+       background-color: #b16a00;
    }
    
    td img {
@@ -253,7 +273,7 @@ media print {
    table, th, td {
        border-collapse: collapse;
        padding: 1rem;
-       text-align: left;
+       text-align: left;    
    }
    
    thead th {
@@ -467,25 +487,19 @@ media print {
 
 button{ /* sem pontos antes de button, pois não é uma classe*/
     display: flex;
-    border-radius: 1.50rem;
     
-    width: 30;
-    background-color: orangered;
 }
 
 
-
-
-
-
 .btn-cliente-dados{
-     background-color: white; 
-    padding-top: 1rem;
+    background-color: white; 
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     height: 115px;
-    width: 100px;
+    width: 116px;
     transform: translate(500px, 50px);
-    
-
 
 }
  

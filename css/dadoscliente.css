@@ -56,7 +56,9 @@
 
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
+
 
     color: white;
 
@@ -65,7 +67,9 @@
 
 .nav-centro a {
    
-    color: white;
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .pesquisa {
@@ -450,19 +454,15 @@ button{ /* sem pontos antes de button, pois não é uma classe*/
     background-color: orangered;
 }
 
-
-
-
-
-
 .btn-cliente-dados{
-     background-color: white; 
-    padding-top: 1rem;
+    background-color: white; 
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     height: 115px;
-    width: 100px;
+    width: 116px;
     transform: translate(500px, 50px);
-    
-
 
 }
  
@@ -473,7 +473,6 @@ background-color: white;
     
     transform: translate(150px, -190px);
 }
-
 
 
 .btn-horarios{
