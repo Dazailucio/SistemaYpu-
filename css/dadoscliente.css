@@ -110,7 +110,7 @@
     
 }
 
-media print {
+@media print {
     .table, .table__body {
      overflow: visible;
      height: auto !important;
@@ -132,7 +132,7 @@ media print {
    }
    
    main.table {
-       width: 82vw;
+       width: 100%;
        height: 61vh;
        background-color: #fff5;
    

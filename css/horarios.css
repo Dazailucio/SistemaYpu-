@@ -109,7 +109,7 @@
 }
 
 /* parte central */
-media print {
+@media print {
     .table, .table__body {
      overflow: visible;
      height: auto !important;
